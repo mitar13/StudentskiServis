@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SSluzbaSpring">
+		<class>model.Ispit</class>
+		<class>model.IspitPK</class>
+		<class>model.Fakultet</class>
+		<class>model.Korisnik</class>
+		<class>model.KorisnikPK</class>
+		<class>model.Osoba</class>
+		<class>model.Polaganje</class>
+		<class>model.PolaganjePK</class>
+		<class>model.Predmet</class>
+		<class>model.PredmetPK</class>
+		<class>model.Profesor</class>
+		<class>model.Student</class>
+	</persistence-unit>
+</persistence>
